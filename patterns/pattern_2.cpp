@@ -5,8 +5,6 @@
     1 2 3 4
 */
 
-
-// take number of lines as input from user
 #include<iostream>
 using namespace std;
 
@@ -14,7 +12,8 @@ int main(){
 
     int n=4, i, j;
 
-    // cout << "Enter value of n \n";
+    // take number of lines as input from user
+    cout << "Enter value of n: \n";
     cin >> n;
 
     // using for loop
